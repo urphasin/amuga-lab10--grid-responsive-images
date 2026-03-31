@@ -66,6 +66,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+}
+
 a:hover,
 a:focus-visible {
   color: var(--link-hover);
