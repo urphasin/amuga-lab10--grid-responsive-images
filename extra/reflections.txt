@@ -1,0 +1,39 @@
+WORK JOURNAL
+
+Saturday 28th March 2026:
+The photoshop is hard to use
+
+Sunday 29th March 2026:
+writing reflections, and doing discussions
+
+
+REFLECTION
+
+
+What I did: What project did you refine, and how long did it take?
+I refined project GRID
+
+
+
+What worked well: Which responsive technique felt most powerful?
+I used clamp functionm, min max
+
+
+
+What was tricky: Where did you struggle with responsive design?
+I struggled with understand srcset syntax at first. I also struggled with getting different dimensions of the same image with photoshops.
+I need help with the fitting of images. Should I use aspect-ratio inside the containers? I gave up on the making of images responsive.
+
+
+
+Key insight: How does mobile-first change the way you think about CSS?
+Add breakpoints below the element where you want the breakpoints to change.
+
+
+
+Next steps: What will you improve in Lab 11? (1 paragraph)
+Keep working on improving the layout and adding more pages and phots.
+
+
+Work quality: Pick the one that best describes your work:
+  I didn’t finish.
