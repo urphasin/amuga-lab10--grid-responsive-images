@@ -1,0 +1,81 @@
+.form div {
+    margin-bottom: 1.5rem;
+}
+
+.success-message {
+    color: green;
+    background: #e6ffe6;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: 2px solid blue;
+}
+
+input:invalid,
+textarea:invalid {
+    border: 2px solid red;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    transform: scale(1.5);
+    margin-bottom: 16px;
+    accent-color: red;
+    padding: 12px;
+}
+
+
+
+
+/* testing below */
+.check-container input {
+  display: none;
+}
+
+.checkmark {
+  width: 24px;
+  height: 24px;
+  border: 2px solid black;
+  display: inline-block;
+  position: relative;
+  border-radius: 4px;
+}
+
+.checkmark::after {
+  content: "";
+  position: absolute;
+  display: none;
+
+  left: 6px;
+  top: 2px;
+  width: 6px;
+  height: 12px;
+
+  border: solid black;
+  border-width: 0 2px 2px 0;
+
+  transform: rotate(45deg);
+}
+
+.check-container input:checked + .checkmark::after {
+  display: block;
+}
+
+.check-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.check-container input:checked + .checkmark {
+  background-color: black;
+}
+
+.check-container input:checked + .checkmark::after {
+  border-color: white;
+}
