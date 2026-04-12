@@ -1,0 +1,24 @@
+body {
+  background: url(../assets/jpg/new_stuff/vecteezy_beautiful-flowers-repeating-pattern.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  /* gap: 20px; */
+  border: 1px solid salmon;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 20px;
+}
+
+.card {
+  background-color: white;
+  width: 300px;
+}
+
+
+/* .card img {
+  width: 100%;
+} */
