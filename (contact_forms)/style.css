@@ -1,3 +1,9 @@
+body {
+  background-image: url(../assets/jpg/new_stuff/vecteezy_white-background-with-blue-geometric-and-white-line-pattern_7677104-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .form div {
     margin-bottom: 1.5rem;
 }
@@ -79,3 +85,7 @@ input[type="checkbox"] {
 .check-container input:checked + .checkmark::after {
   border-color: white;
 }
+
+/* p, label {
+  color: white;
+} */
