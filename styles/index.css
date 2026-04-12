@@ -1,7 +1,34 @@
+a {
+  color: chartreuse;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+a:visited {
+  color: rgb(218, 237, 9);
+}
+
+
 body {
+  font-size: 100%;
+  
+  
   background: url(../assets/jpg/new_stuff/vecteezy_cracked-iridescent-and-opalescent-surface-texture.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+header h1 {
+  color: rgba(181, 218, 19, 0.975);
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  /* column-gap: 20px; */
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .container {

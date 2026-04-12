@@ -1,0 +1,27 @@
+body {
+  font-size: 100%;
+}
+
+nav a {
+  color: chartreuse;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+nav a:visited, footer a:visited {
+  color: maroon;
+}
+
+
+header h1 {
+  color: rgba(181, 218, 19, 0.975);
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  /* column-gap: 20px; */
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
