@@ -1,3 +1,0 @@
-&:hover {
-  background-color: rgba(193, 60, 60, 0.426);
-}
